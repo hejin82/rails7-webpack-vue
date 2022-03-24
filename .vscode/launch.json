@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for rdebug-ide",
+      "type": "Ruby",
+      "request": "attach",
+      "cwd": "${workspaceRoot}",
+      // "remoteHost": "127.0.0.1",
+      "remoteHost": "0.0.0.0",
+      "remotePort": "1235",
+      "remoteWorkspaceRoot": "${workspaceRoot}"
+    },
+      // {
+      //     "name": "Rails server",
+      //     "type": "Ruby",
+      //     "request": "attach",
+      //     "cwd": "${workspaceRoot}",
+      //     "remoteWorkspaceRoot": "/app",
+      //     "remoteHost": "0.0.0.0",
+      //     "remotePort": "1234"
+      // },
+      {
+        "name": "Docker Listen for rdebug-ide",
+        "type": "Ruby",
+        "request": "attach",
+        "cwd": "${workspaceRoot}",
+        "remoteHost": "0.0.0.0",
+        "remotePort": "1234",
+        "remoteWorkspaceRoot": "/app"
+    },
+  ]
+}

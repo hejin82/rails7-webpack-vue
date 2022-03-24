@@ -1,0 +1,6 @@
+"extensions": [
+  "rebornix.ruby",
+  "wingrunr21.vscode-ruby"
+],
+"workspaceFolder": "/app",
+"workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind,consistency=delegated"

@@ -65,6 +65,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "listen"
+  gem 'debase', '0.2.5.beta2'
+  gem "ruby-debug-ide"
 end
 
 group :test do
